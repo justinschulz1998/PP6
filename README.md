@@ -244,14 +244,15 @@ if __name__ == "__main__":
 **Solution Reference**
 
 ```
-[print.py](https://github.com/YOUR_USERNAME/REPO_NAME/blob/main/solutions/print.py)
+[print.py](https://github.com/Justinschulz1998/PP6/blob/main/solutions/print.py)
 ```
 
 #### Reflection Questions
 
 1. **Is Python’s print behavior closer to Bash, Assembly, or C? Explain.**
-2. **Can you inspect a Python script’s binary with `objdump`? Why or why not?**
-
+   Vom Verhalten der Ausgaben ist es eher an C, da es fur den Benutzer einfache nützliche Befhele gibt die viele Funktionen umfassen. von den Ausführungsbefehlen sind sie auch relativ gleich.
+3. **Can you inspect a Python script’s binary with `objdump`? Why or why not?**
+nein es geht nicht da python skript im Gegensatz zu anderen Programmiersprachen nicht in MAschinencode übersetzt wird. 
 ---
 
 **Remember:** Stop working after **90 minutes** and document where you stopped.
