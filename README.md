@@ -97,15 +97,18 @@ print_escape
 Place your completed `print.sh` in `solutions/` and commit. Then link it here:
 
 ```
-[print.sh](https://github.com/YOUR_USERNAME/REPO_NAME/blob/main/solutions/print.sh)
+[print.sh](https://github.com/justinschulz1998/PP6/blob/main/solutions/print.sh)
 ```
 
 #### Reflection Questions
 
 1. **What is the difference between `printf` and `echo` in Bash?**
-2. **What is the role of `~/.bashrc` in your shell environment?**
-3. **Explain the difference between sourcing (`source ~/.bashrc`) and executing (`./print.sh`).**
-
+   printf ist komplexer und echo ist einfacher vom FUnktionsumfang. Je nach benötigte Funktion schnelle Ausgabe ist echo vom Vorteil. Bei Rückgabewerten ist printf geeignet. Zusätzlich ist printf überall gleich Echo kann ejdoch variieren.
+3. **What is the role of `~/.bashrc` in your shell environment?**
+   BAshrc enthält benutzerdefinierte Sachen welche bei jeder Session stattfinden. In unserem Beispiel wird es dafür genutzt ein Willkommen und Tschüss bei jedem Start und Ende zu erzeugen.
+   
+5. **Explain the difference between sourcing (`source ~/.bashrc`) and executing (`./print.sh`).**
+bash führt alles in der Shell aus und die Daten werden gespeichert. Beim print.sh werden werte übergeben und nur für die Dazer des Bash Prozesses gespeichert. (Unterschied der Datenspeicherung)
 ---
 
 ### Task 2: GAS Printing (32‑bit Linux)
