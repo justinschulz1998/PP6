@@ -157,15 +157,18 @@ _start:
 **Solution Reference**
 
 ```
-[print.s](https://github.com/YOUR_USERNAME/REPO_NAME/blob/main/solutions/print.s)
+[print.s](https://github.com/justinschulz1998/PP6/blob/main/solutions/print.s)
 ```
 
 #### Reflection Questions
 
 1. **What is a file descriptor and how does the OS use it?**
-2. **How can you obtain or duplicate a file descriptor for another resource (e.g., a file or socket)?**
-3. **What might happen if you use an invalid file descriptor in a syscall?**
+   Der File descrptor weißt jeder geöffneter Recource eine Zahl vom Betriebssystem zu. Das Betriebssystem führt hierzu gleichzeitig eine Liste zu allen geöffneten Resourcen und nutzt den Filedescrptor als Index für diese.
+3. **How can you obtain or duplicate a file descriptor for another resource (e.g., a file or socket)?**
+   int fd = open("file.txt", O_RDONLY); , int newfd = dup(1); // Dupliziert stdout
 
+5. **What might happen if you use an invalid file descriptor in a syscall?**
+Der Aufruf scheitert und es wird eine Fehlermeldung ausgegeben. EVtl führt dies zu einem Absturz des Programms.
 ---
 
 ### Task 3: C Printing
