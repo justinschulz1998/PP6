@@ -200,15 +200,17 @@ int main(void) {
 **Solution Reference**
 
 ```
-[print.c](https://github.com/YOUR_USERNAME/REPO_NAME/blob/main/solutions/print.c)
+[print.c](https://github.com/justinschulz1998/PP6/blob/main/solutions/print.c)
 ```
 
 #### Reflection Questions
 
 1. **Use `objdump -d` on `print_c` to find the assembly instructions corresponding to your `printf` calls.**
-2. **Why is the syntax written differently from GAS assembly? Compare NASM vs. GAS notation.**
-3. **How could you use `fprintf` to write output both to `stdout` and to a file instead? Provide example code.**
-
+   erledigt
+3. **Why is the syntax written differently from GAS assembly? Compare NASM vs. GAS notation.**
+   Es gibt sachen die vertauscht sind zumbesipiel beim mov / movl ist ziel und start vertauscht
+5. **How could you use `fprintf` to write output both to `stdout` and to a file instead? Provide example code.**
+ fprintf(stdout, "  "); fprintf(file, "  ");
 ---
 
 ### Task 4: Python 3 Printing
