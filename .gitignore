@@ -1,0 +1,11 @@
+#Objekt- und Binärdateien ignorieren
+*.o
+print
+print_c
+
+# Editor-/System-Dateien ignorieren
+*.swp
+.DS_Store
+Thumbs.db
+
+
